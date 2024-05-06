@@ -204,7 +204,7 @@ const Vertical = () => {
           </div>
           {/* begin::Aside*/}
 
-          <div className='d-flex flex-row-fluid flex-center bg-body rounded'>
+          {/* <div className='d-flex flex-row-fluid flex-center bg-body rounded'>
             <Formik validationSchema={currentSchema} initialValues={initValues} onSubmit={submitStep}>
               {() => (
                 <Form className='py-20 w-100 w-xl-700px px-9' noValidate id='kt_create_account_form' placeholder={undefined}>
@@ -254,7 +254,9 @@ const Vertical = () => {
                 </Form>
               )}
             </Formik>
-          </div>
+          </div> */}
+
+          <span>fixloadform</span>
         </div>
       </Content>
     </>
