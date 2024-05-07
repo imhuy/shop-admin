@@ -65,16 +65,7 @@ export function HeaderWrapper() {
                 />
               ) : (
                 <>
-                  <img
-                    alt='Logo'
-                    src={toAbsoluteUrl('media/logos/default.svg')}
-                    className='h-20px h-lg-30px app-sidebar-logo-default theme-light-show'
-                  />
-                  <img
-                    alt='Logo'
-                    src={toAbsoluteUrl('media/logos/default-dark.svg')}
-                    className='h-20px h-lg-30px app-sidebar-logo-default theme-dark-show'
-                  />
+                 
                 </>
               )}
             </Link>
